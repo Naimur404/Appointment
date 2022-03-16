@@ -14,8 +14,5 @@ class Appoinmnet extends Model
     public function doctor(){
         return $this->hasMany(Department::class);
 }
-public function appionment(){
-    $appionments = Appoinmnet::all();
-    return $appionments;
-}
+
 }

@@ -30,4 +30,7 @@ Route::post('/getdoctor',[AppoinmentController::class, 'getdoctor']);
 Route::post('/getfee',[AppoinmentController::class, 'getfee']);
 Route::post('/gethide',[AppoinmentController::class, 'gethide']);
 Route::post('/gedata',[AppoinmentController::class, 'getdata']);
+Route::get('/index',[AppoinmentController::class, 'appion'])->name('index');
+
+
 
